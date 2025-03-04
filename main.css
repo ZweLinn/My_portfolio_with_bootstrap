@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+/* body{
+    height: 1000px;
+} */
+/* Handle */
+
+/* home content start */
+.My_photo div img{
+    /* width: 400px;
+    height: 400px; */
+    object-fit: cover;
+}
+.home_content{
+    padding: 0 80px;
+}
+
+.style_dot {
+    
+    color: rgb(62, 62, 238);
+}
+
+/* gray color for text */
+.my_job, .words{
+    font-family: "SUSE", sans-serif;
+    color: gray;
+}
+@media(max-width:991px){
+    .navbar-nav {
+        margin-left: -20px;
+    }
+    .just_stick span{
+        display: none;
+    }
+   
+}
+/* respomsive for my photo */
+/* @media(max-width:768px){
+    .My_photo img{
+        height: 400px;
+    } 
+
+    .My_photo{
+        width: 200px;
+        height: 400p;
+        border: grey solid 4px;
+       
+        
+    }
+} */
+@media(max-width:427px){
+    .My_photo img{
+        width: 100%;
+        height: 100%;
+    } 
+    .My_photo{
+        width: 300;
+    }
+    .words {
+        font-size: .7rem;
+    }
+    .my_name{
+        font-size: 1.5rem;
+    }
+    .my_job{
+        font-size: 1.2rem;
+    }
+    #hire{
+        font-size: .7rem;
+    }
+    #download{
+        font-size: .7rem;
+    }
+
+}
+@media(max-width:346px){
+    #download{
+        margin-top: 5px;
+        
+    }
+}
+
+/* @media(max-width:385px){
+    .my_name{
+        font-size: 1.2rem;
+    }
+    .my_job{
+        font-size: 1rem;
+    }
+    .words {
+        font-size: .5rem;
+    }
+    #hire{
+        font-size: .5rem;
+    }
+    #download{
+        font-size: .5rem;
+    }
+}
+@media(max-width:385px){
+    .my_name{
+        font-size: 1rem;
+    }
+    .my_job{
+        font-size: .8rem;
+    }
+} */
+
+/* home content end */
+/* About me */
+.about_me{
+    background-color:    #495057;
+
+}
+
+.my_skills {
+    font-family: "SUSE", sans-serif;
+}
+
+@media(max-width:427px){
+    .my_skill{
+        padding-right: 2000px;
+    }
+    #abt_me{
+
+        font-size: 1.5rem;
+    }
+    
+    .left-side_words {
+        font-size: 1rem;
+    }
+    .left-side_title{
+        font-size: 2rem;
+    }
+    #left-side_btn{
+        
+        font-size: 2rem;
+    }
+}
+
+/* What I do */
+.box{
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.what_I_do{
+    background-color:    #495057;
+}

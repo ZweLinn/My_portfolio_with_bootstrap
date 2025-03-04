@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZweLinnMaung</title>
+    <link rel="stylesheet" href="./main.css">
+    <!-- Link Bootstrap CSS-->
+     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href=>
+     <!-- link fontawsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="height: 100vh;">
+
+<!-- Nav bar start -->
+<nav class="navbar navbar-expand-lg bg-dark sticky-top" >
+    <div class="container">
+      <a class="navbar-brand text-light  fa" href="#">ZLM</a>
+      <button class="navbar-toggler  bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav column-gap-3 mx-auto ">
+          <li class="nav-item ">
+            <a class="nav-link active text-light" aria-current="page" href="#content's_home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#content's_about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light " href="#service">Service</a>
+          </li>
+          <li class="nav-item"></li>
+            <a class="nav-link text-light " href="#contact">Contact </a>
+          </li>
+          <li class="social_media d-flex gap-4">
+            <a class="nav-link text-light " href="#">
+                <a class="nav-link text-light just_stick " href="#"><span>|</span></a>
+                <a class="nav-link text-light " href="https://www.facebook.com/zwe.l.maung.562"> <i class="fa-brands fa-facebook"></i> </a>
+                <a class="nav-link text-light " href="https://github.com/ZweLinn"><i class="fa-brands fa-github"></i> </a>
+                <a class="nav-link text-light " href="https://x.com/Yuno59515218"><i class="fa-brands fa-twitter"></i> </a>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Nav bar end -->
+
+<!-- Home Start -->
+ <section>
+    <div class="container-fluid " id="content's_home">
+        <div class="home_content row  bg-dark align-items-center  pb-5">
+           <!-- My photo start -->
+             <div class=" My_photo col-md-6 text-light  "> 
+               <div class="">
+                <img  src="./image/0-02-06-356271b2bdee0ea498e2de93765f9a3db735082d15fd2d96ea29b19a876a096b_3dc0b9b4113b1bce-Photoroom.png" width="90%" class="mb-3 rounded-circle" >
+              </div>
+             </div>
+        <!-- My photo end -->
+            <div class="col-md-6 text-light order-md-first"> 
+                <div>
+                    <p class="words">Hello I'm</p>
+                    <h1 class="my_name fw-bold">Zwe Linn Maung <span class="style_dot">.</span></h1> 
+                    <h3 class="my_job text-uppercase "> Web Developer & Helpdesk Support</h3>
+                    
+                    <p class="words">"I can help you turn ideas into digital solutions."</p>
+                    <button class="btn btn-primary " id="hire">Hire Me</button> 
+                    <button class="btn btn-secondary" id="download" onclick="downloadcv()">Download CV</button>
+                </div>
+               
+                 
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Home end -->
+
+ <!-- about me start -->
+  <section class="about_me" id="content's_about">
+    <div class="container-fluid min-vh-100 ">
+      <div class="row  ">
+        <div class="col-4 offset-4 text-center  mt-5 text-bg-dark  "> <h2 class="fw-bold words pt-1 text-light  " id="abt_me">About Me</h2></div>
+      </div>
+      <div class="row mt-4">
+        <!-- Left side -->
+        <div class="col-md-6 align-content-center justify-content-center ps-5 mt-5">
+          <h2 class="text-light words left-side_title">Who am I</h2>
+
+          <p class="text-light words left-side_words ">I’m a Junior Web Developer with a solid foundation in HTML, CSS, JavaScript, and responsive design. I enjoy solving problems and building user-focused websites. I’m continuously learning new technologies to expand my skills. <br> <br> 
+            I also have experience in Helpdesk Support, where I’ve handled troubleshooting, software/hardware support, and network configuration. This blend of web development and IT support allows me to ensure smooth operations while providing technical assistance.</p>
+
+            <button class="btn btn-primary mb-5  " >Experience</button> 
+        </div>
+        <!-- Left side end-->
+        <!--Right side, Skill col -->
+        <div class="col-md-6 my_skill   ">
+            <div class="row justify-content-center text-light fw-bold fs-5 my_skills">Skills</div>
+            <!-- My skill start -->
+            <div class="mb-1 px-3">
+              <p class="fw-bold text-light">HTML</p>
+              <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+            </div>
+            <div class="mb-1 px-3">
+              <p class="fw-bold text-light">CSS</p>
+              <div class="progress" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+            </div>
+            <div class="mb-1 px-3">
+              <p class="fw-bold text-light">JAVASCRIPT</p>
+              <div class="progress" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar w-50"></div>
+              </div>
+            </div>
+              <div class="mb-1 mt-3 px-3">
+                <p class="fw-bold text-light">JQUERY</p>
+                <div class="progress" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar w-50"></div>
+                </div>
+                <div class="mb-1 mt-3  ">
+                  <p class="fw-bold text-light ">BOOTSTRAP</p>
+                  <div class="progress" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                  <div class="mb-1 mt-3 ">
+                    <p class="fw-bold text-light ">TROUBLESHOOTING, HARDWARE/SOFTWARE SUPPORT</p>
+                    <div class="progress" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar w-75"></div>
+                    </div>
+              </div>
+              <!-- My skill end -->
+        </div>
+         <!--Right side, Skill col -->   
+      </div>
+    </div>
+  </section>
+  <!-- about me end -->
+
+  <!-- What I can I do start -->
+  <section class="what_I_do " id="service">
+    <div class="container-fluid ">
+      <div class="row ">
+        <div class="col-4 offset-4 text-center words mt-5"><p> &#9866; My services</p></div>
+        <div class="col-4 offset-4 text-center words text-light fw-bold"><h2> What Can I do</h2></div>
+      </div>
+      <!-- boxe start -->
+      <div class="row px-5 mt-2 pb-5 text-center">
+        <!-- Boxes -->
+        <div class="col-md-4 col-sm-6 mt-3"> 
+          <div class="box bg-dark">
+            <div class="text-light">
+              <i class="fa-solid fa-pencil text-primary fs-4 mb-3"></i>
+              <h4 class="words text-light">Creative Design</h4>
+              <p class="words">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, dolor odio. Quidem libero minus assumenda doloribus commodi autem tempora nulla laborum sapiente? Perferendis odit officiis adipisci facere ex? Repellat, eos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mt-3"> 
+          <div class="box bg-dark">
+            <div class="text-light">
+              <i class="fa-solid fa-lightbulb text-primary fs-4 mb-3"></i>
+              <h4 class="words text-light">Creative Idea</h4>
+              <p class="words">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis ad non reprehenderit. Minus eligendi quasi neque adipisci reiciendis, at laborum in. Non reiciendis earum architecto perspiciatis, magni quia laudantium inventore?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mt-3"> 
+          <div class="box bg-dark">
+            <div class="text-light">
+              <i class="fa-solid fa-laptop text-primary fs-4 mb-3" ></i>
+              <h4 class="words text-light">User Interface</h4>
+              <p class="words">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit consequuntur officia dignissimos, incidunt unde inventore maxime nihil veniam. Molestias ipsum fugit unde cupiditate animi laborum eius, eveniet dolorum pariatur cum?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mt-3"> 
+          <div class="box bg-dark">
+            <div class="text-light">
+              <i class="fa-solid fa-briefcase text-primary fs-4 mb-3"></i>
+              <h4 class="words text-light">User Experience</h4>
+              <p class="words">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium dolorum eius recusandae reiciendis minus cumque doloremque atque necessitatibus! Odit nesciunt ipsum deserunt sequi sed incidunt corporis tempora ex harum cupiditate?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4  col-sm-6 mt-3"> 
+          <div class="box bg-dark">
+            <div class="text-light">
+              <i class="fa-solid fa-code text-primary fs-4 mb-3"></i>
+              <h4 class="words text-light">Clean Code</h4>
+              <p class="words">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo eos sequi, ex autem voluptate reiciendis facere adipisci deserunt, itaque repellat beatae tenetur quas facilis voluptatibus assumenda sed. Autem, voluptas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mt-3"> 
+          <div class="box bg-dark">
+            <div class="text-light">
+              <i class="fa-solid fa-desktop text-primary fs-4 mb-3"></i>
+              <h4 class="words text-light">Fast Support</h4>
+              <p class="words">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur consequatur quia assumenda, ipsa vero cumque illo debitis possimus facilis. Recusandae vitae iure molestias expedita repellendus, sed delectus commodi culpa omnis!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+   <!-- What I can I do end -->
+
+   <!-- Freelancer start -->
+    <section>
+      <div class="container-fluid  bg-dark">
+        <div class="row text-center">
+          <div class="py-4" >
+            <p class="words">Do you have any projects?</p>
+            <h4 class="words text-light"> I'm avaliable for Freelance Project</h4>
+            <h5 class="words">Contact me</h5>
+            <i class="fa-solid fa-arrow-down words"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Freelancer end -->
+    <!-- Contact start -->
+      <section class="container-fluid bg-dark pt-5 pb-5  " id="contact">
+        <div class="row text-center pt-5">
+          <h2 class="words text-light fs-3">Contact</h2>
+        </div>
+        <div class="row">
+          <!-- contact left -->
+          <div class="col-md-5 ps-5 mt-3 align-content-center">
+            <div class="phone words d-flex justify-content-center mb-2 ">
+               <div>
+                <i class="fa-solid fa-phone text-primary me-3"></i> 
+               </div>
+               <div class="">
+                <div class="words text-light">Phone</div>
+                <div>+66 99486 2943</div>
+              </div>
+            </div>
+            <div class="email words d-flex justify-content-center ms-5 ">
+              <div>
+                <i class="fa-solid fa-envelope text-primary me-2 "></i>
+              </div>
+              <div class="me-3">
+               <div class="words text-light">Email</div>
+               <div>zewlinnmg@gmail.com</div>
+             </div>
+          </div>
+          <div class="row mt-3">
+            <li class="social_media d-flex gap-3 fs-5 justify-content-center">
+              <a class="nav-link text-light " href="#">
+                  <a class="nav-link text-light " href="https://www.facebook.com/zwe.l.maung.562"> <i class="fa-brands fa-facebook"></i> </a>
+                  <a class="nav-link text-light " href="https://github.com/ZweLinn"><i class="fa-brands fa-github"></i> </a>
+                  <a class="nav-link text-light " href="https://x.com/Yuno59515218"><i class="fa-brands fa-twitter"></i> </a>
+              </a>
+            </li>
+          </div>
+          
+        </div>
+        <div class="col-md-6  mt-4 ps-5 d-flex row justify-content-center">
+          <form action="https://api.web3forms.com/submit" method="POST"class="" >
+            <input type="hidden" name="access_key" value="a001cb5b-3eba-4590-b6bf-2cf07e697b8e">
+            <div class="ps-3"><input class="form-control mb-4 w-100 " type="text" id="name" name="name" placeholder="Your Name" required></div>
+            <div class="ps-3"><input class="form-control mb-4 w-100" type="email" id="email" name="email" for="btn" placeholder="Your Email" required></div>
+            <div class="ps-3" style="height: 140px;"> <textarea name="Message" id="" class="form-control w-100 h-100" placeholder="Message.."></textarea></div>
+            <button class="btn btn-primary mt-2 ms-3 " id="btn" type="submit" > Send Message</button>
+          </form>
+          
+        </div>
+      </div>
+          <!-- contact right -->
+      </section>
+    <!-- Contact end -->
+     <!-- footer -->
+      <footer class="border-top bg-dark py-2 text-center ">
+        <div class="container-fluid ">
+          <h5 class="words bg-dark">Thank For Your Patience</h5>
+        </div>
+      </footer>
+</body>
+
+<!-- Link Bootstrap JS -->
+ <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+ <script src="./js.js" ></script>
+
+</script>
+
+
+</html>
